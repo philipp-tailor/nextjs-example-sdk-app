@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { BirdBug } from './BirdBug';
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
           Created with&nbsp;<b>next.new</b>&nbsp;⚡️
         </a>
       </footer>
+      <BirdBug />
     </div>
   );
 }
